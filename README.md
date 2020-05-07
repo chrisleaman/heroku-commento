@@ -1,3 +1,12 @@
+### Modified to Run on Heroku in Docker Container
+
+Changes to work on Heroku based on: https://github.com/fidiego/commento-heroku
+
+Tracking development repo: https://gitlab.com/commento/commento/
+Last updated 12 April 2020
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ### Commento
 
 ##### [Homepage](https://commento.io) &nbsp;&ndash;&nbsp; [Demo](https://demo.commento.io) &nbsp;&ndash;&nbsp; [Documentation](https://docs.commento.io) &nbsp;&ndash;&nbsp; [Contributing](https://docs.commento.io/contributing/) &nbsp;&ndash;&nbsp; [#commento on Freenode](http://webchat.freenode.net/?channels=%23commento)

@@ -45,9 +45,9 @@ COPY --from=templates-db-build /commento/templates/build/prod/templates /comment
 COPY --from=templates-db-build /commento/db/build/prod/db /commento/db/
 
 # heroku EXPOSE 8080 
-COPY ./run.sh /commento/  # heroku
-RUN chmod +x /commento/run.sh  # heroku
+COPY ./run.sh /commento/ 
+RUN chmod +x /commento/run.sh 
 WORKDIR /commento/
 ENV COMMENTO_BIND_ADDRESS="0.0.0.0"
 # heroku ENTRYPOINT ["/commento/commento"] 
-CMD ["sh", "/commento/run.sh"] # heroku
+CMD ["sh", "/commento/run.sh"]

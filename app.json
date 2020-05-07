@@ -6,9 +6,9 @@
   "website": "https://commento.io",
   "keywords": ["goalang", "commento", "privacy"],
   "stack": "container",
-    "addons": [
+  "addons": [
     {
-      "plan": "heroku-postgresql",
+      "plan": "heroku-postgresql"
     },
     {
       "plan": "papertrail:choklad"
